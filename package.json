@@ -1,0 +1,30 @@
+{
+  "name": "tobe",
+  "version": "0.0.0",
+  "description": "Deferred assertion library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floatdrop/tobe.git"
+  },
+  "keywords": [
+    "assert",
+    "deferred"
+  ],
+  "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floatdrop/tobe/issues"
+  },
+  "homepage": "https://github.com/floatdrop/tobe",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "dependencies": {
+    "is": "^2.0.1"
+  }
+}
