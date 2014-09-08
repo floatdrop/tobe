@@ -1,5 +1,5 @@
-module.exports = function(should, Assertion) {
-    Assertion.add('instanceOf', function(constructor) {
+module.exports = function() {
+    Function.add('instanceOf', function(constructor) {
         return function (obj) {
             return Object(obj) instanceof constructor;
         };

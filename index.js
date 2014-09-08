@@ -28,6 +28,7 @@ tobe.use = function(f) {
 tobe
   .use(require('./ext/chain'))
   .use(require('./ext/eql'))
-  .use(require('./ext/type'));
+  .use(require('./ext/type'))
+  .use(require('./ext/property'));
 
 module.exports = function () {};

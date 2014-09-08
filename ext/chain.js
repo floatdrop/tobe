@@ -1,6 +1,6 @@
-module.exports = function(should, Assertion) {
+module.exports = function() {
     function addLink(name) {
-        Object.defineProperty(Assertion.prototype, name, {
+        Object.defineProperty(Function.prototype, name, {
             get: function() {
                 return this;
             },
