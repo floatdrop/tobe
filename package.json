@@ -1,6 +1,6 @@
 {
   "name": "tobe",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Deferred assertion library",
   "main": "index.js",
   "scripts": {
