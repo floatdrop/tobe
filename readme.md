@@ -1,5 +1,7 @@
 # tobe [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
+__Deprecated:__ Use [funsert](http://npmjs.com/funsert) for functional assertion.
+
 Deferred assertion library with should.js syntax. Sometimes it is handy to pass assertion function as callback, for example — in [stream-assert](https://github.com/floatdrop/stream-assert).
 
 ## Usage
